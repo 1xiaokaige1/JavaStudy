@@ -19,7 +19,7 @@ public class ArrayFunc {
         }
 
         for (int i = 0; i < outLength; i++) {
-            System.out.println(Arrays.toString(arrThree[i]));
+            System.out.println(Arrays.deepToString(arrThree));
         }
     }
 }
