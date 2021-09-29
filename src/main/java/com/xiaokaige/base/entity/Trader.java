@@ -5,7 +5,7 @@ package com.xiaokaige.base.entity;
  * Date: 2021/9/28
  * Time: 14:19
  */
-public class Trader {
+public class Trader implements Comparable<Trader>{
     private String name;
 
     private Integer age;
@@ -43,5 +43,11 @@ public class Trader {
                 ", age=" + age +
                 ", address='" + address + '\'' +
                 '}';
+    }
+
+
+    @Override
+    public int compareTo(Trader o) {
+        return 1;
     }
 }
