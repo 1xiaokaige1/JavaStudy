@@ -1,4 +1,4 @@
-package com.xiaokaige.stringdata;
+package com.xiaokaige.base.stringdata;
 
 import java.util.List;
 import java.util.stream.Collectors;

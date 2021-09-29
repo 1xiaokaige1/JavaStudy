@@ -1,4 +1,4 @@
-package com.xiaokaige.basedata;
+package com.xiaokaige.base.basedata;
 
 import java.util.ArrayList;
 import java.util.List;

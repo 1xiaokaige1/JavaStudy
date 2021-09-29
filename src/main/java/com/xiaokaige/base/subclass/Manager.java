@@ -1,4 +1,4 @@
-package com.xiaokaige.subclass;
+package com.xiaokaige.base.subclass;
 
 /**
  * @author: zk

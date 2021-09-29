@@ -1,4 +1,4 @@
-package com.xiaokaige.enumdata;
+package com.xiaokaige.base.enumdata;
 
 /**
  * 新建的枚举类

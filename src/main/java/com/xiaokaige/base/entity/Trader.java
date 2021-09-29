@@ -1,4 +1,4 @@
-package com.xiaokaige.entity;
+package com.xiaokaige.base.entity;
 
 /**
  * @author: zk

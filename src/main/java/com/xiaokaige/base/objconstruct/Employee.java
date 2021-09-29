@@ -1,4 +1,4 @@
-package com.xiaokaige.objconstruct;
+package com.xiaokaige.base.objconstruct;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

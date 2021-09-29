@@ -1,4 +1,4 @@
-package com.xiaokaige.arrdata;
+package com.xiaokaige.base.arrdata;
 
 import java.util.Arrays;
 

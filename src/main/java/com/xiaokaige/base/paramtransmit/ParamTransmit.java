@@ -1,6 +1,6 @@
-package com.xiaokaige.paramtransmit;
+package com.xiaokaige.base.paramtransmit;
 
-import com.xiaokaige.entity.Trader;
+import com.xiaokaige.base.entity.Trader;
 
 /**
  * @author: zk
