@@ -4,6 +4,7 @@ import com.xiaokaige.base.subclass.Employee;
 import com.xiaokaige.base.subclass.EmployeeComparator;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * @author: zk
@@ -21,6 +22,8 @@ public class ComparatorSortFunc {
             employee.setSalary(10.0);
             employeeArr[i] = employee;
         }
-        Arrays.sort(employeeArr,new EmployeeComparator());
+        Arrays.sort(employeeArr, new EmployeeComparator());
+        //直接传入实例化的比较器
+        Arrays.sort(employeeArr, Comparator.comparing(Employee::getAddress));
     }
 }
