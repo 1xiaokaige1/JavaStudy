@@ -73,4 +73,5 @@ fabric.properties
 
 .idea/**
 src/test/**
+target/**
 
