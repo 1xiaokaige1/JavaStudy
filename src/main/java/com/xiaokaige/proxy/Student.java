@@ -1,4 +1,4 @@
-package com.xiaokaige.base.proxy;
+package com.xiaokaige.proxy;
 
 /**
  * @author: zk

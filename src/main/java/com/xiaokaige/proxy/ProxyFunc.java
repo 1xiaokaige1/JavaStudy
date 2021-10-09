@@ -1,6 +1,7 @@
-package com.xiaokaige.base.proxy;
+package com.xiaokaige.proxy;
 
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * @author: zk
@@ -14,5 +15,11 @@ public class ProxyFunc {
         StudentProxy studentProxy = new StudentProxy(student);
         Object obj = studentProxy.invoke(studentProxy, method, null);
         System.out.println("obj = " + obj);
+
+        Class<?> proxyClass = Proxy.getProxyClass(student.getClass().getClassLoader(), Person.class);
+        System.out.println("proxyClass = " + proxyClass);
+        
+        boolean flag = Proxy.isProxyClass(proxyClass);
+        System.out.println("flag = " + flag);
     }
 }
