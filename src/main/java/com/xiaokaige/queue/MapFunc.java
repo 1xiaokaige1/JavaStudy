@@ -2,7 +2,9 @@ package com.xiaokaige.queue;
 
 import com.xiaokaige.proxy.Student;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -21,5 +23,12 @@ public class MapFunc {
         System.out.println("studentResult = " + studentResult);
 
         map.forEach((k, v) -> System.out.println(k + "--->" + v));
+
+        List<Integer> integerList = Arrays.asList(1, 2, 3);
+        Integer removeData = integerList.remove(0);
+
+        System.out.println("integerList.size() = " + integerList.size());
+        System.out.println(integerList.getClass().getTypeName());
+        boolean flag = integerList.add(4);
     }
 }
