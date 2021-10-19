@@ -64,7 +64,7 @@ public class VideoThumbTaker
     public static void main(String[] args)
     {
         long startTime = System.currentTimeMillis();
-        VideoThumbTaker videoThumbTaker = new VideoThumbTaker("D:\\ideaProject\\teststst\\src\\main\\java\\com\\im\\ffmpeg.exe");
+        VideoThumbTaker videoThumbTaker = new VideoThumbTaker("D:\\ideaProject\\teststst\\src\\main\\java\\com\\im\\ffmpeg.plugin");
         try
         {
             videoThumbTaker.getThumb("C:\\Users\\Admin\\Desktop\\20211018_sight_3891456.mp4", "C:\\Users\\Admin\\Desktop\\videoFirst.jpg",800, 600, 0, 0, 3f);

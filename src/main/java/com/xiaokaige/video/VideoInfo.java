@@ -163,7 +163,7 @@ public class VideoInfo
 
     public static void main(String[] args)
     {
-        VideoInfo videoInfo = new VideoInfo("D:\\ideaProject\\java_study\\src\\main\\java\\com\\xiaokaige\\ffmpeg.exe");
+        VideoInfo videoInfo = new VideoInfo("D:\\ideaProject\\java_study\\src\\main\\java\\com\\xiaokaige\\ffmpeg.plugin");
         try
         {
             videoInfo.getInfo("C:\\Users\\Admin\\Desktop\\20211018_sight_3891456.mp4");
